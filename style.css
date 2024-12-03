@@ -500,7 +500,7 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(56, 46, 254, 0.5
   padding: 10px 15px;
   border-radius: 40%;
   transition: background-color 0.5s ease;
-  text-align: center; /* Add this to move the icon to the right end */
+  text-align: right; /* Add this to move the icon to the right end */
 }
 
 .up a:hover {
