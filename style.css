@@ -11,11 +11,11 @@ body{
 }
 .hero-header{
   margin:1px;
-  
+  padding-top: ;
   width:100%;
   height: 100%;
   min-height: 100vh;
-  background: black;
+  background-image: linear-gradient(to right, #0d192c, #15171f, #2a2b3c, #202022, #131111);
   
 }
 .wrapper{
@@ -32,7 +32,7 @@ body{
   width: 90%;
   background-color:transparent; Add a background color to the nav */
 header{
-  padding: 40px 0 30px;
+  padding: 30px 0 18px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,10 +135,12 @@ nav .navlinks  a:hover {
   max-width: 500px;
   display: flex;
   flex-direction: column;
+  padding-top: 13px;
 }
 .hero-text h5{
   color:#e5e5e5;
   font-size: 14px;
+
 }
 .hero-text h5 span{
   color:#007ced;
@@ -191,6 +193,7 @@ nav .navlinks  a:hover {
   font-size: 18px;
   margin-right: 10px;
   transition: 0.5s;
+  padding-bottom: 20px;
 }
 .hero-text .social i:hover{
   color:#007ced;
@@ -205,15 +208,15 @@ nav .navlinks  a:hover {
   width:100%;
   height: 100%;
   min-height: 100vh;
-  background: #090908;
+  background-image: linear-gradient(to right, #0d192c, #15171f, #2a2b3c, #202022, #131111);
 }
 
 .about h5 {
  
   height:"100%";
   width:"100%";
-  padding-top: 50px;
-  padding-left: 41%;
+  padding-top: 40px;
+  text-align: center;
   font-size: 35px;
   color:white;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -222,6 +225,7 @@ nav .navlinks  a:hover {
 
 .flex-container {
   padding-top: 20px;
+  padding-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -270,6 +274,7 @@ nav .navlinks  a:hover {
   color:white;
   font-size: 24px;
   margin-bottom: 6px;
+  text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
@@ -318,7 +323,7 @@ nav .navlinks  a:hover {
   margin:1px;
   height: 100%;
   min-height: 100vh;
-  background: #090908;
+  background-image: linear-gradient(to right, #0d192c, #15171f, #2a2b3c, #202022, #131111);
   padding: 20px;
 }
 
@@ -326,8 +331,8 @@ nav .navlinks  a:hover {
   
   height:"100%";
   width:"100%";
-  padding-top: 50px;
-  padding-left: 41%;
+  padding-top: 30px;
+  text-align: center;
   font-size: 35px;
   color:white;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -335,7 +340,8 @@ nav .navlinks  a:hover {
 }
 
 .project .flex-container {
-  padding-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -408,11 +414,12 @@ nav .navlinks  a:hover {
 .contact {
   background-color: #000;
   text-align: center;
+  padding-bottom: 30px;
   margin:1px;
   width:100%;
   height: 100%;
   min-height: 90vh;
-  background: #090908;
+  background-image: linear-gradient(to right, #0d192c, #15171f, #2a2b3c, #202022, #131111);
 }
 
 
@@ -435,7 +442,7 @@ nav .navlinks  a:hover {
   text-align: center;
   font-size: 19.5px;
   /* A multi-shadow effect */
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(255, 255, 255, 0.5);
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(56, 46, 254, 0.5);
 }
 
 .contact input[type="text"], .contact input[type="email"] {
@@ -445,7 +452,7 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(255, 255, 255, 0
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(194, 190, 190, 0.1);
   color: rgba(255, 255, 255, 0.6);
   font-size: 18px;
 }
@@ -457,7 +464,7 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(255, 255, 255, 0
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(194, 190, 190, 0.1);
   color: rgba(255, 255, 255, 0.6);
   font-size: 18px;
 
@@ -479,21 +486,40 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(255, 255, 255, 0
   display: flex;
   justify-content: center;
   gap: 20px; /* add 20px gap between elements */
-  background-color: #000;
+  background-image: linear-gradient(to right, #0d192c, #15171f, #2a2b3c, #202022, #131111);
   color: #fff;
-  padding: 20px;
+  padding: 40px;
+}
+.contact-info p{
+  text-align: center;
 }
 
 .up a {
   color: #fff;
-  background-color: #4deeea;
+  background-color: #405353;
   padding: 10px 15px;
   border-radius: 40%;
   transition: background-color 0.5s ease;
-  text-align: right; /* Add this to move the icon to the right end */
+  text-align: center; /* Add this to move the icon to the right end */
 }
 
 .up a:hover {
   background-color: transparent;
   text-shadow: 0 0 10px #33ccff, 0 0 20px #33ccff, 0 0 30px #33ccff;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+  }
+  .navlinks li {
+    display: block; /* Stack navigation links */
+    margin: 10px 0; /* Add spacing between links */
+  }
+}
+@media (max-width: 768px) {
+  .a1 {
+    width: 90%; /* Full width on mobile */
+  }
 }
