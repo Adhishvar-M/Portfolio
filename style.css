@@ -5,22 +5,32 @@
   margin: 0;
   font-family: poppins,sans-serif;
   text-decoration: none;
+  
+  
 }
 body{
   overflow-x: hidden;
+  background-image: linear-gradient(to right, #0d192c, #15171f, #2a2b3c, #202022, #131111);
+  /* background-image: url('.jpg'); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
 }
 .hero-header{
-  margin:1px;
-  padding-top: ;
+  /* margin:1px; */
   width:100%;
   height: 100%;
-  min-height: 100vh;
-  background-image: linear-gradient(to right, #0d192c, #15171f, #2a2b3c, #202022, #131111);
+  /* min-height: 100vh; */
+  
+  
   
 }
 .wrapper{
-  width:1280px;
-  max-width: 95%;
+  width:100%;
+  height:auto;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -116,7 +126,7 @@ nav .navlinks  a:hover {
   border-radius: 50%;
   overflow: hidden;
   border: 15px solid #444;
-  box-shadow: 5px 7px 25px rgba(0,0,0,0.5);
+  box-shadow: 5px 7px 25px rgba(82, 221, 214, 0.5);
 }
 
 .hero-pic img{
@@ -204,11 +214,11 @@ nav .navlinks  a:hover {
 /* About Section Styles */
 
 .about {
-  margin:1px;
+  /* margin:1px; */
   width:100%;
   height: 100%;
-  min-height: 100vh;
-  background-image: linear-gradient(to right, #0d192c, #15171f, #2a2b3c, #202022, #131111);
+  /* min-height: 100vh; */
+  /* background-image: linear-gradient(to right, #0d192c, #15171f, #2a2b3c, #202022, #131111); */
 }
 
 .about h5 {
@@ -245,33 +255,10 @@ nav .navlinks  a:hover {
 }
 
 
-.a1 {
-  /* Add padding to the div */
-  padding: 20px;
-  
-  /* Add a box shadow */
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.935);
-  
-  /* Add some margin between the two divs */
-  margin: 20px;
-  
-  /* Add a background color to make the shadow more visible */
-  background-color: black;
-  
-  /* Add some border radius to give it a rounded corner */
-  border-radius: 10px;
-  
-  /* Set the width of each div to 40% of the container */
-  width: 40%;
-  
-  /* Use Flexbox to align content in a column */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .a1 h1 {
   color:white;
+  
   font-size: 24px;
   margin-bottom: 6px;
   text-align: center;
@@ -292,6 +279,7 @@ nav .navlinks  a:hover {
   font-family: 'Times New Roman', Times, serif ;
   margin: 7px 0;
   color: white;
+  
 }
 
 .a2 {
@@ -299,7 +287,7 @@ nav .navlinks  a:hover {
   padding: 20px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.916);
   margin: 20px;
-  background-color: black;
+  background-color: #e7dcdc05;
   border-radius: 10px;
   width: 100%;
   display: flex;
@@ -314,15 +302,16 @@ nav .navlinks  a:hover {
   font-size: 18px;
   line-height: 1.25;
   margin-bottom: 20px;
+  
 }
 
 /*project section style*/
 
 
 .project{
-  margin:1px;
+  /* margin:1px; */
   height: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-image: linear-gradient(to right, #0d192c, #15171f, #2a2b3c, #202022, #131111);
   padding: 20px;
 }
@@ -375,8 +364,7 @@ nav .navlinks  a:hover {
   margin: 20px;
   
   /* Add a background color to make the shadow more visible */
-  background-color: black;
-  
+  background-color: #fbfff804;
   /* Add some border radius to give it a rounded corner */
   border-radius: 10px;
   
@@ -406,20 +394,21 @@ nav .navlinks  a:hover {
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
   font-size: 17px;
- text
+ 
   margin-bottom: 20px;
 }
 /* Contact Section Styles */
 
 .contact {
-  background-color: #000;
+  
   text-align: center;
+  color: black;
   padding-bottom: 30px;
-  margin:1px;
   width:100%;
   height: 100%;
-  min-height: 90vh;
-  background-image: linear-gradient(to right, #0d192c, #15171f, #2a2b3c, #202022, #131111);
+  /* min-height: 90vh; */
+  
+  /* background-image: linear-gradient(to right, #0d192c, #15171f, #2a2b3c, #202022, #131111); */
 }
 
 
@@ -433,6 +422,7 @@ nav .navlinks  a:hover {
 
 
 .contact form {
+  color: rgb(17, 211, 133);
   margin-top: 30px;
 }
 
@@ -452,8 +442,8 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(56, 46, 254, 0.5
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: rgba(194, 190, 190, 0.1);
-  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(245, 245, 245, 0.106);
+  color:rgb(255, 255, 255);
   font-size: 18px;
 }
 
@@ -461,11 +451,11 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(56, 46, 254, 0.5
   width: 50%;
   height: 100px;
   margin-bottom: 20px;
+  color: rgb(255, 255, 255);
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: rgba(194, 190, 190, 0.1);
-  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(245, 245, 245, 0.204);
   font-size: 18px;
 
 }
@@ -482,35 +472,53 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(56, 46, 254, 0.5
 }
 
 
+footer {
+  /* background-image: linear-gradient(to right, #0d192c, #15171f, #2a2b3c, #202022, #131111); */
+  color: white;
+  padding: 20px;
+  margin-top: 2px;
+}
+
 .contact-info {
   display: flex;
-  justify-content: center;
-  gap: 20px; /* add 20px gap between elements */
-  background-image: linear-gradient(to right, #0d192c, #15171f, #2a2b3c, #202022, #131111);
-  color: #fff;
-  padding: 40px;
-  width:1280px;
-  max-width: 100%;
-  margin: 0 auto;
- 
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
-.contact-info p{
-  text-align: center;
+
+.contact-content {
+  display: flex;
+  gap: 20px; /* Space between contact items */
+  flex: 1; /* Allow this section to take available space */
+  justify-content: center; /* Center the contact items */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(56, 46, 254, 0.5);
+}
+
+.contact-content p {
+  margin: 0;
+}
+
+.up {
+  margin-left: auto; /* Pushes the up icon to the right */
 }
 
 .up a {
-  color: #fff;
-  background-color: #405353;
-  padding: 10px 15px;
-  border-radius: 40%;
-  transition: background-color 0.5s ease;
-  text-align: right; /* Add this to move the icon to the right end */
+  text-decoration: none;
+  color: white;
+  font-size: 24px; /* Adjust size as needed */
 }
 
-.up a:hover {
-  background-color: transparent;
-  text-shadow: 0 0 10px #33ccff, 0 0 20px #33ccff, 0 0 30px #33ccff;
+@media (max-width: 600px) {
+  .contact-info {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: center; /* Center items on small screens */
+  }
+
+  .up {
+      margin-top: 10px; /* Space between contact info and up icon */
+  }
 }
+
 
 @media (max-width: 768px) {
   .container {
@@ -527,3 +535,66 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(56, 46, 254, 0.5
     width: 100%; /* Full width on mobile */
   }
 }
+@media (max-width: 768px) {
+  .contact-content{
+    font-size: small;
+  }
+}
+
+@media (max-width: 768px) {
+  .body {
+      background-image: url('5.jpg'); 
+      
+  }
+}
+
+
+/* Slide in from right */
+.container-right {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 0.8s ease-out;
+}
+
+
+section {
+  height: 100vh; /* Full viewport height for demonstration */
+  opacity: 0; /* Start hidden */
+  transform: translateY(20px); /* Start slightly below */
+  transition: opacity 3s ease, transform 1s ease; /* Transition for opacity and transform */
+}
+
+.section-visible {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Move to original position */
+}
+
+.content {
+  opacity: 0; /* Start hidden */
+  transform: translateX(-50px); /* Start from the left */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Transition for opacity and transform */
+}
+
+.section-visible .content {
+  opacity: 1; /* Fully visible */
+  transform: translateX(0); /* Move to original position */
+}
+
+
+
+/* Flex container styles */
+.flex-container {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  opacity: 0; /* Start hidden */
+  transform: translateX(-100%); /* Start from the left for About */
+  transition: opacity 1s ease, transform 1s ease; /* Transition for opacity and transform */
+}
+
+.flex-visible {
+  opacity: 1; /* Fully visible */
+  transform: translateX(0); /* Move to original position */
+}
+
+
