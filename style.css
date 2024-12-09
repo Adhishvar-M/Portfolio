@@ -553,13 +553,13 @@ footer {
 .container-right {
   opacity: 0;
   transform: translateX(100px);
-  transition: all 0.8s ease-out;
+  transition: all 0.6s ease-out;
 }
 
 
 section {
   height: 100vh; /* Full viewport height for demonstration */
-  opacity: 0; /* Start hidden */
+  opacity: 1; /* Start hidden */
   transform: translateY(20px); /* Start slightly below */
   transition: opacity 3s ease, transform 1s ease; /* Transition for opacity and transform */
 }
